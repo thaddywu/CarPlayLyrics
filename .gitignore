@@ -1,0 +1,36 @@
+# SwiftPM
+.build/
+.swiftpm/
+
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcresult
+
+# Secrets — never commit the real Spotify client ID (see Secrets.example.plist)
+DriveVerse/Resources/Secrets.plist
+
+# macOS
+.DS_Store
+
+# Raw screen recording (kept local, not committed)
+demo-raw.mp4
+
+# Local credentials / signing / exported builds
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
+*.ipa
+*.xcarchive/
+*.pem
+*.key
+
+# Unreviewed upstream media and private local notes (kept locally)
+assets/demo.gif
+assets/demo.mp4
+README.upstream.md
+Claude.md
